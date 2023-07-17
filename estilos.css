@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1200px;
+    background-color: #fff;
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.negra.primera, .negra.tercera{
+    padding: 10px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.gris {
+    padding: 10px;
+    background-color:lightgrey;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 8px;
+}
+
+.vermell {
+    padding: 10px;
+    background: red;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.taronja {
+    padding: 10px;
+    background-color: orange;
+}
+
+.clar{
+    padding: 10px;
+    background-color:khaki;
+}
+
+
+.groc{
+    padding: 10px;
+    background-color: yellow;
+}
+
+.negra.segona {
+    padding: 10px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 8px;
+}
+
+.grisfosc{
+    padding: 10px;
+    background-color:darkslategray;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contenidorblaufosc{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+
+.blau1{
+    padding: 10px;
+    background-color:cornflowerblue;
+}
+
+.blau2{
+    padding: 10px;
+    background-color:lightcyan;
+    align-self: stretch;
+}
+
+
+@media screen and (max-width: 600px){
+    .negra.segona {
+        padding: 10px;
+        background-color: yellow;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+}
+
+
+@media screen and (max-width: 400px){
+    .gris {
+        padding: 10px;
+        background-color:lightgrey;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+    
+    .negra.segona {
+        padding: 10px;
+        background-color: yellow;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+}
